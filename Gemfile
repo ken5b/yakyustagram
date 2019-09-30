@@ -64,3 +64,6 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'erb2haml'
+gem 'devise', '~> 4.6.1'
+gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
