@@ -129,8 +129,24 @@
 .pickup-head {
   width: 200px;
   height: 0px;
-  margin-left: 400px;
+  margin-left: 450px;
   margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 100px;
   font-size: 25px;
+  text-align: center
+}
+
+.photos-box-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photos-box {
+  margin: 0 0 0 100px;
+  position: relative;
+  display: flex;
+}
+
+.photo-boxs {
+  margin-right: 20px
 }

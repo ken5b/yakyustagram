@@ -24,11 +24,11 @@
     .section.pickup-container
       %h2.pickup-head
         =link_to "最新の投稿", class: "textstyle"
-      .items-box-content.clearfix
-        %section.items-box
+      .photos-box-content.clearfix
+        %section.photos-box
           - if @photos
             - @photos.each do |photo|
-              .item-box
-                %figure.items-box-photo
-                  = link_to image_tag("#{item.image.url}", width: '213',  height: '220', alt: "個別アイテム"), photo_path(photo)
+              .photo-box
+                %figure.photo-boxs
+                  = link_to image_tag("#{photo.image.url}", width: '200',  height: '200', alt: ""), post_path(photo)
 
