@@ -67,3 +67,4 @@ gem 'erb2haml'
 gem 'devise', '~> 4.6.1'
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
+gem 'kaminari'
